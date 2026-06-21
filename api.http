@@ -1,0 +1,10 @@
+
+post http://localhost:8000/singers/
+Content-Type: application/json
+
+{
+    "name" : "tamer ashour",
+    "genre" : "rOmAnTiC"
+}
+###
+GET http://localhost:8000/singers/
