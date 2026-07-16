@@ -1,27 +1,18 @@
-# Virtual Environment
+# Virtual environment (this repo had it committed at the root — see README setup)
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
 venv/
+.venv/
 env/
 
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 
-# Database
-db.sqlite3
-
-# Environment Variables
-.env
-
-# Media Files
-media/
-images/
-
-# VS Code
+# IDE / OS
 .vscode/
-
-# Static files generated
-staticfiles/
-
-# OS files
+.idea/
 .DS_Store
-Thumbs.db
