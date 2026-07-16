@@ -1,0 +1,22 @@
+
+post http://localhost:8000/singers/
+Content-Type: application/json
+
+{
+    "name" : "tamer ashour",
+    "genre" : "rOmAnTiC",
+    "albums" : [
+        {
+            "name" : "w 3la 3eny",
+            "relese_date" : "2000-01-05"
+            
+        } ,
+        {
+            "name" : "zengbary",
+            "relese_date" : "2000-12-05"
+            
+        }
+    ]
+}
+###
+GET http://localhost:8000/singers/
